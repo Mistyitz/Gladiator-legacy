@@ -1,1 +1,198 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Gladiator Legacy - Grade 6</title>
+<style>
+{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+}
+body {
+background: #f1f4f8;
+color: #222;
+}
+header {
+background: linear-gradient(135deg, #8b0000, #d4af37);
+color: white;
+text-align: center;
+padding: 35px 20px;
+}
+header h1 {
+font-size: 42px;
+margin-bottom: 10px;
+}
+header p {
+font-size: 18px;
+}
+nav {
+background: #222;
+padding: 15px;
+text-align: center;
+}
+nav a {
+color: white;
+text-decoration: none;
+margin: 0 15px;
+font-weight: bold;
+}
+nav a:hover {
+color: #d4af37;
+}
+.container {
+max-width: 1100px;
+margin: auto;
+padding: 30px 20px;
+}
+.welcome {
+background: white;
+text-align: center;
+padding: 25px;
+border-radius: 12px;
+margin-bottom: 30px;
+box-shadow: 0 3px 10px #ccc;
+}
+.welcome h2 {
+color: #8b0000;
+margin-bottom: 10px;
+}
+.cards {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+gap: 20px;
+}
+.card {
+background: white;
+padding: 25px;
+border-radius: 12px;
+text-align: center;
+box-shadow: 0 3px 10px #ccc;
+}
+.card h3 {
+color: #8b0000;
+margin-bottom: 12px;
+font-size: 24px;
+}
+.card p {
+margin-bottom: 18px;
+color: #555;
+}
+button {
+background: #8b0000;
+color: white;
+border: none;
+padding: 12px 22px;
+border-radius: 7px;
+cursor: pointer;
+font-size: 16px;
+}
+button:hover {
+background: #d4af37;
+color: #222;
+}
+.info {
+background: white;
+margin-top: 30px;
+padding: 25px;
+border-radius: 12px;
+box-shadow: 0 3px 10px #ccc;
+}
+.info h2 {
+color: #8b0000;
+margin-bottom: 12px;
+}
+ul {
+padding-left: 25px;
+line-height: 1.8;
+}
+footer {
+background: #222;
+color: white;
+text-align: center;
+padding: 20px;
+margin-top: 30px;
+}
+@media (max-width: 600px) {
+header h1 {
+font-size: 30px;
+}
+nav a {
+display: inline-block;
+margin: 6px;
+}
+}
+</style>
+</head>
+<body>
+<header>
+<h1>⚔️ Gladiator Legacy ⚔️</h1>
+<p>Grade 6 Class Group</p>
+</header>
+<nav>
+<a href="#home">Home</a>
+<a href="#games">Games</a>
+<a href="#movies">Movies</a>
+<a href="#tools">Tools</a>
+</nav>
+<main class="container" id="home">
+<section class="welcome">
+<h2>Welcome, Gladiators!</h2>
+<p>
+This is the official website for our 6th grade group.
+Learn, have fun, watch movies, and use helpful tools together.
+</p>
+</section>
+<section class="cards">
+<div class="card" id="games">
+<h3>🎮 Games</h3>
+<p>Have fun with simple classroom games and activities.</p>
+<button onclick="showMessage('Games section coming soon!')">
+Open Games
+</button>
+</div>
+<div class="card" id="movies">
+<h3>🎬 Movies</h3>
+<p>Find educational and fun movie suggestions.</p>
+<button onclick="showMessage('Movies section coming soon!')">
+View Movies
+</button>
+</div>
+<div class="card" id="tools">
+<h3>🛠️ Tools</h3>
+<p>Use helpful tools for learning and schoolwork.</p>
+<button onclick="showMessage('Tools section coming soon!')">
+Open Tools
+</button>
+</div>
+</section>
+<section class="info">
+<h2>📚 Basic Class Information</h2>
+<ul>
+<li>Grade: 6th Grade</li>
+<li>Group Name: Gladiator Legacy</li>
+<li>Purpose: Learning, teamwork, and fun</li>
+<li>Class Motto: Strong minds, strong teamwork!</li>
+</ul>
+</section>
+<section class="info">
+<h2>📅 Weekly Reminder</h2>
+<p>
+Remember to bring your books, complete your homework,
+and help your classmates.
+</p>
+</section>
+</main>
+<footer>
+<p>&copy; 2026 Gladiator Legacy | Grade 6 Group</p>
+</footer>
+<script>
+function showMessage(message) {
+alert(message);
+}
+</script>
+</body>
+</html>
